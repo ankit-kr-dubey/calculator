@@ -1,0 +1,98 @@
+@keyframes changecolor{
+    0%{ background-color: rgb(202, 136, 152);}
+    250%{ background-color: rgb(180, 164, 46);}
+    50%{ background-color: rgb(106, 73, 139);}
+    70%{ background-color: rgb(90, 219, 211);}
+    100%{ background-color:rgb(202, 136, 152);}
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+   
+}
+
+table{
+    background-color:rgb(202, 136, 152) ;
+    opacity: .8;
+    box-shadow: 10px 10px  rgb(30, 1, 1);
+    border-radius: 20px;
+    animation-name: changecolor;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+
+
+
+td{
+    border: none;
+    text-align: center;
+    padding: 10px;
+  
+}
+
+
+#area{
+    display: inline-block;
+    border-radius: 10px ;
+   width: 400px;
+    height: 80px;
+    text-align: left;
+    overflow: auto;
+    overflow-y: hidden;
+    line-height: 56px;
+    letter-spacing: 7px;
+    padding-left: 9px;
+    background-color:  rgb(14, 84, 163);;
+    font-size: 30px;
+    box-sizing: border-box;
+  color: aliceblue;
+  box-shadow: 5px 5px  1px rgb(52, 25, 25) inset;
+  position: relative;
+  right: -5px;
+}
+   
+
+  
+  
+   
+
+a{
+    display: inline-block;
+     text-decoration: none ;
+     border: 1px solid black;
+     border-radius: 20px;
+     width: 70px;
+     height: 50px;
+     background-color: rgb(14, 84, 163);
+    color: antiquewhite;
+    font-size: xx-large;
+    box-shadow: 5px 5px 5px 1px rgb(24, 1, 1);
+    line-height: 45px;
+
+   
+}
+tr{
+    border: none;
+    vertical-align: middle;
+    
+}
+#ankit{
+   
+    height: 120px;
+ 
+}
+a:hover{
+    box-shadow: none;
+    transition-duration: .5s;
+    background-color: antiquewhite;
+    color: rgb(14, 84, 163);
+}
+#area:hover{
+    background-color: aliceblue;
+    transition-duration: .3s;
+    color: rgb(14, 84, 163);
+}
